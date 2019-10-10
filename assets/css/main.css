@@ -2777,7 +2777,7 @@ input, select, textarea {
 			}
 
 				.spotlight br {
-					display: none;
+					/* display: none; */
 				}
 
 				.spotlight .image {
