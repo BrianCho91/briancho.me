@@ -4047,6 +4047,14 @@ input, select, textarea {
 	border: 1px white solid
 }
 
+#footer .icons li:first-child {
+	padding-right: 20px
+}
+
+#footer .icons li:last-child {
+	padding-right: 0 !important;
+}
+
 @media screen and (max-width: 980px) {
 	.about-me-container {
 		flex-direction: column;
@@ -4070,4 +4078,5 @@ input, select, textarea {
 	p.not-special {
 		text-align: center;
 	}
+
 }
