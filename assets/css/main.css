@@ -2325,7 +2325,7 @@ input, select, textarea {
 		}
 
 			ul.icons li:last-child {
-				padding-right: 0 !important;
+				padding-right: 1.5em !important;
 			}
 
 		ul.icons.major {
@@ -2340,7 +2340,7 @@ input, select, textarea {
 				@media screen and (max-width: 736px) {
 
 					ul.icons.major li {
-						padding: 0 1em !important;
+						padding: 1em 1em;
 					}
 
 				}
@@ -4020,11 +4020,13 @@ input, select, textarea {
 
 .language-icons-bigger {
 	font-size: 100px;
-	transform: translateY(80px)
+	transform: translateY(80px);
+	padding: 0px;
 }
 
 .ugly-icons {
-	transform: translateY(15px)
+	transform: translateY(15px);
+	padding: 0px;
 }
 .about-me-container {
 	display: flex;
@@ -4045,7 +4047,7 @@ input, select, textarea {
 	border: 1px white solid
 }
 
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 980px) {
 	.about-me-container {
 		flex-direction: column;
 		align-items: center;
@@ -4058,5 +4060,10 @@ input, select, textarea {
 		margin-right: 0px;
 		margin-bottom: 30px;
 		border: 1px white solid
+	}
+
+	.ugly-icons {
+		/* transform: translateY(15px); */
+		padding: 0 1em 0 1em !important;
 	}
 }
